@@ -21,7 +21,7 @@ export default function Home() {
         <link rel="canonical" href="https://animatediffaitool.com" />
       </Head>
       <div className='flex flex-col min-h-screen'>
-        <Header />
+        {/* <Header /> */}
         <div className='bg-[#f7f8f9] grow flex flex-col items-center pt-3'>
         <div className='bg-[#fff] grow flex flex-col items-center px-16'>
           <h1 className='text-4xl font-bold mt-3'>Animatediff AI Tool: easy text-to-video</h1>
@@ -61,6 +61,24 @@ export default function Home() {
             </p>
             <p className='font-normal text-lg font-sans mt-5'>
               <strong>Gradio Demo:</strong> To make AnimateDiff easier for users to use, the team has also developed a Gradio demo. With just a few commands, you can start the demo on your local host and interact through a user-friendly interface.
+            </p>
+          </div>
+
+          <h2 className="rounded-xl text-white text-2xl mt-5 font-semibold bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full p-2 flex justify-center">
+            How to use AnimateDiff AI Tool?
+          </h2>
+          <div>
+            <p className='font-normal text-lg font-sans mt-5'>
+              <strong>Github: </strong>
+              <a rel="noreferrer noopener" href="https://github.com/guoyww/AnimateDiff" target="_blank"> https://github.com/guoyww/AnimateDiff</a>
+            </p>
+            <p className='font-normal text-lg font-sans mt-5'>
+              <strong>Paper URL: </strong>
+              <a href="https://arxiv.org/abs/2307.04725" target="_blank" rel="noreferrer noopener"> https://arxiv.org/abs/2307.04725</a>
+            </p>
+            <p className='font-normal text-lg font-sans mt-5'>
+              <strong>Experience Online (You can also use it below): </strong>
+              <a href="https://huggingface.co/spaces/guoyww/AnimateDiff" target="_blank" rel="noreferrer noopener"> https://huggingface.co/spaces/guoyww/AnimateDiff</a>
             </p>
           </div>
 
