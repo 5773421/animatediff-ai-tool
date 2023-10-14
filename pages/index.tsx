@@ -49,7 +49,7 @@ export default function Home() {
           </h2>
           <div>
             <p className='font-normal text-lg font-sans mt-5'>
-              <strong>Embrace the power of the MotionLoRA Model:</strong>With the latest launch of the MotionLoRA model and its comprehensive library, controlling your camera's movements is now at your fingertips. Effortlessly create dynamic animation scenes with features like zoom, pan, tilt, and rotation.
+              <strong>Embrace the power of the MotionLoRA Model:</strong>With the latest launch of the MotionLoRA model and its comprehensive library, controlling your camera&apos;s movements is now at your fingertips. Effortlessly create dynamic animation scenes with features like zoom, pan, tilt, and rotation.
             </p>
             <p className='font-normal text-lg font-sans mt-5'>
               <strong>Experience the Power of the Motion Module:</strong>This tool comes packed with a variety of Motion modules such as mm_sd_v14.ckpt, mm_sd_v15.ckpt, and mm_sd_v15_v2.ckpt. Not only do they support high-resolution, but they also facilitate batch processing training, all while delivering exceptional image quality.
@@ -76,7 +76,7 @@ export default function Home() {
               <strong>Lora, </strong>the team has rolled out updates for 8 sports models in Lora, giving us the freedom to dictate the course of the animation display.
             </p>
             <p className='font-normal text-lg font-sans mt-5'>
-              <strong>ControlNet</strong> - we all know it excels at control. But what kind of magic can it conjure when it's applied in the realm of animation?
+              <strong>ControlNet</strong> - we all know it excels at control. But what kind of magic can it conjure when it&apos;s applied in the realm of animation?
             </p>
             <p className='font-normal text-lg font-sans mt-5'>
               <strong>With Prompt Travel,</strong> we can dictate specific actions or scenes at certain frames using prompt words. This gives us dynamic control over our animation.
@@ -132,7 +132,7 @@ export default function Home() {
           </h2>
           <div className='w-full mt-5 flex flex-col justify-center items-center'>
             <p className='font-normal text-lg font-sans mt-3 text-left'>
-              Hugging Face is a cloud service where individuals upload their AI projects, and you can access these models for free. We will use its 'space' feature to generate video animations.。
+              Hugging Face is a cloud service where individuals upload their AI projects, and you can access these models for free. We will use its &apos;space&apos; feature to generate video animations.。
             </p>
             <ol className='mt-5 w-full'>
               <li>
@@ -161,7 +161,7 @@ export default function Home() {
           </h2>
           <div className='w-full mt-5 flex flex-col justify-center items-center'>
             <p className='font-normal text-lg font-sans mt-3 text-left'>
-              Hugging Face is a cloud service where individuals upload their AI projects, and you can access these models for free. We will use its 'space' feature to generate video animations.
+              Hugging Face is a cloud service where individuals upload their AI projects, and you can access these models for free. We will use its &apos;space&apos; feature to generate video animations.
               Given its widespread use, it might occasionally malfunction. We encourage you to either give it multiple attempts or consider deploying it on your own computer.
             </p>
             <ol>
