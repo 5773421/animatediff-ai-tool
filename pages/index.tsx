@@ -21,16 +21,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://animatediffaitool.com" />
       </Head>
-      <div className='flex flex-col min-h-screen'>
+      <div className='bg-[rgba(51,51,72,0.1)] w-full flex flex-col items-center lg:pb-0 overflow-auto break-words'>
         {/* <Header /> */}
-        <div className='bg-[#f7f8f9] grow flex flex-col items-center pt-3'>
-        <div className='bg-[#fff] grow flex flex-col items-center px-16'>
-          <h1 className='text-4xl font-bold mt-3'>Animatediff AI Tool: easy text-to-video</h1>
+        <div className='bg-[#f7f8f9] w-full flex flex-col items-center pt-3'>
+        <div className='bg-[#fff] w-full flex flex-col items-center px-10 lg:px-16'>
+          <h1 className='text-2xl lg:text-4xl font-bold mt-3'>Animatediff AI Tool: easy text-to-video</h1>
           <h5 className="rounded-xl text-white text-2xl mt-5 font-semibold bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full p-2 flex justify-center">
             Animatediff AI Tool: easy text-to-video
           </h5>
           <div>
-            <p className='font-normal text-base font-sans'>
+            <p className='font-normal text-lg font-sans mt-5'>
             AnimateDiff, an open-source framework, empowers static images with dynamic expressions by applying tailored text-to-image models for animation creation. It does this without compromising the image quality of the original model, thus generating animated clips that add a new dimension to static imagery.
             </p>
           </div>
@@ -39,7 +39,7 @@ export default function Home() {
             What is AnimateDiff AI Tool?
           </h2>
           <div>
-            <p className='font-normal text-lg font-sans'>
+            <p className='font-normal text-lg font-sans mt-5'>
             AnimateDiff is an innovative tool that effortlessly turns your text into dynamic visuals, no specialized tweaking required. It offers a boundless playground for creativity, letting you breathe life into your text descriptions by transforming them into stunning animations.What sets it apart is its ability to morph real-life movie footage into animated content. Even amidst high-octane action, the resulting video maintains remarkable stability. The project introduces a streamlined solution that brings animated flair to a wide range of personalized text-to-image models at once, bypassing the need for individual model tweaks.
             </p>
           </div>
@@ -86,28 +86,28 @@ export default function Home() {
           <h2 className="rounded-xl text-white text-2xl mt-5 font-semibold bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full p-2 flex justify-center">
             How to use AnimateDiff AI Tool for free?
           </h2>
-          <div>
-            <p className='font-normal text-lg font-sans mt-5'>
-              <strong>Github: </strong>
-              <a rel="noreferrer noopener" href="https://github.com/guoyww/AnimateDiff" target="_blank"> https://github.com/guoyww/AnimateDiff</a>
+          <div className='w-full'>
+            <p className='font-normal text-lg font-sans mt-5 w-full'>
+              <strong>Github: </strong><br/>
+              <a rel="noreferrer noopener" href="https://github.com/guoyww/AnimateDiff" target="_blank">https://github.com/guoyww/AnimateDiff</a>
             </p>
-            <p className='font-normal text-lg font-sans mt-5'>
-              <strong>Paper URL: </strong>
+            <p className='font-normal text-lg font-sans mt-5 overflow-auto w-full'>
+              <strong>Paper URL: </strong><br/>
               <a href="https://arxiv.org/abs/2307.04725" target="_blank" rel="noreferrer noopener"> https://arxiv.org/abs/2307.04725</a>
             </p>
-            <p className='font-normal text-lg font-sans mt-5'>
-              <strong>Experience Online (You can also use it below): </strong>
-              <a href="https://huggingface.co/spaces/guoyww/AnimateDiff" target="_blank" rel="noreferrer noopener"> https://huggingface.co/spaces/guoyww/AnimateDiff</a>
+            <p className='font-normal text-lg font-sans mt-5 overflow-auto w-full'>
+              <strong>Experience Online</strong><br/>
+              <strong>(You can also use it below):</strong>
+              <a className='break-words' href="https://huggingface.co/spaces/guoyww/AnimateDiff" target="_blank" rel="noreferrer noopener"> https://huggingface.co/spaces/guoyww/AnimateDiff</a>
             </p>
-            <p>Given its widespread use, it might occasionally malfunction. We encourage you to either give it multiple attempts or consider deploying it on your own computer.</p>
+            <p className='mt-3'>Given its widespread use, it might occasionally malfunction. We encourage you to either give it multiple attempts or consider deploying it on your own computer.</p>
           </div>
 
           <div>
             <iframe
               src="https://guoyww-animatediff.hf.space"
               frameBorder="0"
-              width="1000"
-              height="600"
+              className='w-full min-h-[500px]'
             ></iframe>
           </div>
 
