@@ -103,7 +103,7 @@ export default function Home() {
             <p className='mt-3'>Given its widespread use, it might occasionally malfunction. We encourage you to either give it multiple attempts or consider deploying it on your own computer.</p>
           </div>
 
-          <div>
+          <div className='w-full'>
             <iframe
               src="https://guoyww-animatediff.hf.space"
               frameBorder="0"
