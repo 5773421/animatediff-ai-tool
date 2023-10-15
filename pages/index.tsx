@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Animatediff AI Tool: easy text-to-video</title>
+        <title>Animatediff online: easy text-to-video</title>
         <meta
           name="description"
           content="AnimateDiff AI Tool is a powerful tool that enables you to effortlessly transform text into animated images, without any specific adjustments. It provides users with infinite creative and exploratory space, allowing you to turn text descriptions into stunning animated scenes."
