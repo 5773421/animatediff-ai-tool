@@ -1,14 +1,15 @@
 import Head from 'next/head';
 import { useEffect, useState, useRef } from 'react';
-import Header from '../components/Header';
 import Image from 'next/image'
+import Header from '../components/Header';
+import Link from 'next/link';
 
 export default function Home() {
 
   return (
     <>
       <Head>
-        <title>Animatediff online: easy text-to-video</title>
+        <title>Animatediff: The best text to video AI tool available right now.</title>
         <meta
           name="description"
           content="AnimateDiff AI Tool is a powerful tool that enables you to effortlessly transform text into animated images, without any specific adjustments. It provides users with infinite creative and exploratory space, allowing you to turn text descriptions into stunning animated scenes."
@@ -21,19 +22,54 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://animatediffaitool.com" />
       </Head>
+      <Header />
+
+
       <div className='bg-[rgba(51,51,72,0.1)] w-full flex flex-col items-center lg:pb-0 overflow-auto break-words'>
-        {/* <Header /> */}
         <div className='bg-[#f7f8f9] w-full flex flex-col items-center pt-3'>
         <div className='bg-[#fff] w-full flex flex-col items-center px-10 lg:px-16'>
           <h1 className='text-2xl lg:text-4xl font-bold mt-3'>Animatediff AI Tool: easy text-to-video</h1>
           <h5 className="rounded-xl text-white text-2xl mt-5 font-semibold bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full p-2 flex justify-center">
-            Animatediff AI Tool: easy text-to-video
+            Animatediff: The best text to video AI tool available right now.
           </h5>
           <div>
             <p className='font-normal text-lg font-sans mt-5'>
-            AnimateDiff, an open-source framework, empowers static images with dynamic expressions by applying tailored text-to-image models for animation creation. It does this without compromising the image quality of the original model, thus generating animated clips that add a new dimension to static imagery.
+            AnimateDiff, empowers static images with dynamic expressions by applying tailored text-to-image models for animation creation. It does this without compromising the image quality of the original model, thus generating animated clips that add a new dimension to static imagery.
             </p>
           </div>
+          
+
+          <h2 className="rounded-xl text-white text-2xl mt-5 font-semibold bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full p-2 flex justify-center">
+            AnimatedDiff AI HQ Overview:
+          </h2>
+          <div className="w-full overflow-x-auto mt-5">
+          <table className="w-full whitespace-no-wrap border">
+            <thead>
+              <tr className="tracking-wide text-left uppercase border-b bg-gray-50">
+                <th className="px-2 sm:px-4 py-4 border"><strong>AI Tool</strong></th>
+                <th className="px-2 sm:px-4 py-4 border"><strong>AnimateDiff AI</strong></th>
+              </tr>
+            </thead>
+            <tbody className="bg-white divide-y">
+              <tr>
+                <td className="px-2 sm:px-4 py-4 border"><strong>Purpose</strong></td>
+                <td className="px-2 sm:px-4 py-4 border">text to video</td>
+              </tr>
+              <tr>
+                <td className="px-2 sm:px-4 py-4 border"><strong>Accessibility</strong></td>
+                <td className="px-2 sm:px-4 py-4 border">Online at Hugging Face</td>
+              </tr>
+              <tr>
+                <td className="px-2 sm:px-4 py-4 border"><strong>User-Friendly</strong></td>
+                <td className="px-2 sm:px-4 py-4 border">Suitable for all skill levels</td>
+              </tr>
+              <tr>
+                <td className="px-2 sm:px-4 py-4 border"><strong>Cost</strong></td>
+                <td className="px-2 sm:px-4 py-4 border">free</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
           <h2 className="rounded-xl text-white text-2xl mt-5 font-semibold bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full p-2 flex justify-center">
             What is AnimateDiff AI Tool?
@@ -66,51 +102,8 @@ export default function Home() {
           </div>
 
           <h2 className="rounded-xl text-white text-2xl mt-5 font-semibold bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full p-2 flex justify-center">
-            Contents of the Latest Animatediff V2 Version Update
+              Demo Version of AnimateDiff AI
           </h2>
-          <div className='w-full'>
-            <p className='font-normal text-lg font-sans mt-5 text-left'>
-              This latest update primarily introduces support for three new features in the plugin: Lora, ControlNet, and Prompt Travel.
-            </p>
-            <p className='font-normal text-lg font-sans mt-5'>
-              <strong>Lora, </strong>the team has rolled out updates for 8 sports models in Lora, giving us the freedom to dictate the course of the animation display.
-            </p>
-            <p className='font-normal text-lg font-sans mt-5'>
-              <strong>ControlNet</strong> - we all know it excels at control. But what kind of magic can it conjure when it&apos;s applied in the realm of animation?
-            </p>
-            <p className='font-normal text-lg font-sans mt-5'>
-              <strong>With Prompt Travel,</strong> we can dictate specific actions or scenes at certain frames using prompt words. This gives us dynamic control over our animation.
-            </p>
-          </div>
-
-          <h2 className="rounded-xl text-white text-2xl mt-5 font-semibold bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full p-2 flex justify-center">
-            How to use AnimateDiff AI Tool for free?
-          </h2>
-          <div className='w-full'>
-            <p className='font-normal text-lg font-sans mt-5 w-full'>
-              <strong>Github: </strong><br/>
-              <a rel="noreferrer noopener" href="https://github.com/guoyww/AnimateDiff" target="_blank">https://github.com/guoyww/AnimateDiff</a>
-            </p>
-            <p className='font-normal text-lg font-sans mt-5 overflow-auto w-full'>
-              <strong>Paper URL: </strong><br/>
-              <a href="https://arxiv.org/abs/2307.04725" target="_blank" rel="noreferrer noopener"> https://arxiv.org/abs/2307.04725</a>
-            </p>
-            <p className='font-normal text-lg font-sans mt-5 overflow-auto w-full'>
-              <strong>Experience Online</strong><br/>
-              <strong>(You can also use it below):</strong>
-              <a className='break-words' href="https://huggingface.co/spaces/guoyww/AnimateDiff" target="_blank" rel="noreferrer noopener"> https://huggingface.co/spaces/guoyww/AnimateDiff</a>
-            </p>
-            <p className='mt-3'>Given its widespread use, it might occasionally malfunction. We encourage you to either give it multiple attempts or consider deploying it on your own computer.</p>
-          </div>
-
-          <div className='w-full'>
-            <iframe
-              src="https://guoyww-animatediff.hf.space"
-              frameBorder="0"
-              className='w-full min-h-[500px]'
-            ></iframe>
-          </div>
-
           <h2 className="rounded-xl text-white text-2xl mt-5 font-semibold bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full p-2 flex justify-center">
             Step 1: Accessing Hugging Face
           </h2>
@@ -179,6 +172,51 @@ export default function Home() {
                 layout="responsive"
               />
             </figure>
+          </div>
+
+          <h2 className="rounded-xl text-white text-2xl mt-5 font-semibold bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full p-2 flex justify-center">
+            (You can also use it below):
+          </h2>
+
+          <div className='w-full'>
+            <p className='font-normal text-lg font-sans mt-5 w-full'>
+              <strong>Github: </strong><br/>
+              <a rel="noreferrer noopener" href="https://github.com/guoyww/AnimateDiff" target="_blank">https://github.com/guoyww/AnimateDiff</a>
+            </p>
+            <p className='font-normal text-lg font-sans mt-5 overflow-auto w-full'>
+              <strong>Paper URL: </strong><br/>
+              <a href="https://arxiv.org/abs/2307.04725" target="_blank" rel="noreferrer noopener"> https://arxiv.org/abs/2307.04725</a>
+            </p>
+            <p className='font-normal text-lg font-sans mt-5 overflow-auto w-full'>
+              <strong>Experience Online</strong><br/>
+              <a className='break-words' href="https://huggingface.co/spaces/guoyww/AnimateDiff" target="_blank" rel="noreferrer noopener"> https://huggingface.co/spaces/guoyww/AnimateDiff</a>
+            </p>
+            <p className='mt-3'>Given its widespread use, it might occasionally malfunction. We encourage you to either give it multiple attempts or consider deploying it on your own computer.</p>
+          </div>
+          <div className='w-full'>
+            <iframe
+              src="https://guoyww-animatediff.hf.space"
+              frameBorder="0"
+              className='w-full min-h-[700px]'
+            ></iframe>
+          </div>
+
+          <h2 className="rounded-xl text-white text-2xl mt-5 font-semibold bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full p-2 flex justify-center">
+            Contents of the Latest Animatediff V2 Version Update
+          </h2>
+          <div className='w-full'>
+            <p className='font-normal text-lg font-sans mt-5 text-left'>
+              This latest update primarily introduces support for three new features in the plugin: Lora, ControlNet, and Prompt Travel.
+            </p>
+            <p className='font-normal text-lg font-sans mt-5'>
+              <strong>Lora, </strong>the team has rolled out updates for 8 sports models in Lora, giving us the freedom to dictate the course of the animation display.
+            </p>
+            <p className='font-normal text-lg font-sans mt-5'>
+              <strong>ControlNet</strong> - we all know it excels at control. But what kind of magic can it conjure when it&apos;s applied in the realm of animation?
+            </p>
+            <p className='font-normal text-lg font-sans mt-5'>
+              <strong>With Prompt Travel,</strong> we can dictate specific actions or scenes at certain frames using prompt words. This gives us dynamic control over our animation.
+            </p>
           </div>
 
 
