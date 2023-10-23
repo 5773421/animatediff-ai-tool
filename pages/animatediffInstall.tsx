@@ -12,11 +12,11 @@ export default function Home() {
         <title>Animatediff: The best text to video AI tool available right now.</title>
         <meta
           name="description"
-          content="AnimateDiff AI Tool is a powerful tool that enables you to effortlessly transform text into animated images, without any specific adjustments. It provides users with infinite creative and exploratory space, allowing you to turn text descriptions into stunning animated scenes."
+          content="Animatediff has been seamlessly incorporated into the webUI, rendering it incredibly user-friendly."
         />
         <meta
           name="keywords"
-          content="AnimateDiff AI Tool, Animatediff"
+          content="AnimateDiff webui, Animatediff insatll"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
