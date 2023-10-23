@@ -5,7 +5,8 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <GoogleAnalytics id='G-NDMQ327VKD' />
-      {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2474433659735494" crossOrigin="anonymous"></script> */}
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2474433659735494"
+     crossOrigin="anonymous"></script>
       <body>
         <Main />
         <NextScript />
