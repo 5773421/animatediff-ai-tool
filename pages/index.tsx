@@ -30,7 +30,7 @@ export default function Home() {
         <div className='bg-[#fff] w-full flex flex-col items-center px-10 lg:px-16'>
           <h1 className='text-2xl lg:text-4xl font-bold mt-3'>Animatediff AI Tool: easy text-to-video</h1>
           <h5 className="rounded-xl text-white text-2xl mt-5 font-semibold bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full p-2 flex justify-center">
-            Animatediff: The best text to video AI tool available right now.
+            Animatediff: easy text-to-video
           </h5>
           <div>
             <p className='font-normal text-lg font-sans mt-5'>
