@@ -38,6 +38,12 @@ export default function Example() {
                   >
                     Install
                   </Link>
+                  <Link
+                    href="/terms-and-conditions"
+                    className="inline-flex items-center border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                  >
+                    terms and conditions
+                  </Link>
                 </div>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:items-center">
