@@ -26,7 +26,7 @@ export default function Home() {
 
 
       <div className='bg-[rgba(51,51,72,0.1)] w-full flex flex-col items-center lg:pb-0 overflow-auto break-words'>
-        <div className='bg-[#f7f8f9] w-full flex flex-col items-center pt-3 px-20'>
+        <div className='bg-[#f7f8f9] w-full flex flex-col items-center pt-3 px-0 lg:px-20'>
         <div className='bg-[#fff] w-full flex flex-col items-center px-10 lg:px-16'>
           <h1 className='text-2xl lg:text-4xl font-bold mt-3'>Animatediff AI Tool: easy text-to-video</h1>
 
