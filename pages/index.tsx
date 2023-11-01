@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Animatediff AI Tool: easy text-to-video</title>
+      <title>Animatediff: The best text to video AI tool available right now.</title>
         <meta
           name="description"
-          content="AnimateDiff AI Tool is a powerful tool that enables you to effortlessly transform text into animated images, without any specific adjustments. It provides users with infinite creative and exploratory space, allowing you to turn text descriptions into stunning animated scenes"
+          content="AnimateDiff is one of the easiest ways to generate videos with Stable Diffusion. In the most basic form, you only need to write a prompt, pick a model, and turn on AnimateDiff"
         />
         <meta
           name="keywords"
