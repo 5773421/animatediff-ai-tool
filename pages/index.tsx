@@ -221,7 +221,10 @@ export default function Home() {
 
 
 
-          <a href=" https://shorturl.at/gwWX6" target="_blank" rel="noreferrer noopener">  https://shorturl.at/gwWX6</a>
+          <a href="https://www.storeboard.com/mahuahua/links" target="_blank">https://www.storeboard.com/mahuahua/links</a>
+          <a href="https://github.com/5773421/sentence-counter" target="_blank">https://github.com/5773421/sentence-counter</a>
+          <a href="https://developer.aliyun.com/article/1475291" target="_blank">https://developer.aliyun.com/article/1475291</a>
+          <a href="https://www.storeboard.com/mahuahua/links" target="_blank">https://www.storeboard.com/mahuahua/links</a>
         </div>
         </div>
       </div>
