@@ -224,7 +224,10 @@ export default function Home() {
           <a href="https://www.storeboard.com/mahuahua/links" target="_blank">https://www.storeboard.com/mahuahua/links</a>
           <a href="https://github.com/5773421/sentence-counter" target="_blank">https://github.com/5773421/sentence-counter</a>
           <a href="https://developer.aliyun.com/article/1475291" target="_blank">https://developer.aliyun.com/article/1475291</a>
-          <a href="https://www.storeboard.com/mahuahua/links" target="_blank">https://www.storeboard.com/mahuahua/links</a>
+          <a href="https://www.bgrdh.com/sites/4267.html" target="_blank">https://www.bgrdh.com/sites/4267.html</a>
+          <a href="https://marketplace.whmcs.com/group/sentence-conter" target="_blank">https://marketplace.whmcs.com/group/sentence-conter</a>
+          <a href="https://seositecheckup.com/seo-audit/sentencecounter.xyz" target="_blank">https://seositecheckup.com/seo-audit/sentencecounter.xyz</a>
+          <a href="https://myopportunity.com/en/profile/ma-huahua/nw" target="_blank">https://myopportunity.com/en/profile/ma-huahua/nw</a>
         </div>
         </div>
       </div>
