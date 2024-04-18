@@ -228,6 +228,9 @@ export default function Home() {
           <a href="https://marketplace.whmcs.com/group/sentence-conter" target="_blank">https://marketplace.whmcs.com/group/sentence-conter</a>
           <a href="https://seositecheckup.com/seo-audit/sentencecounter.xyz" target="_blank">https://seositecheckup.com/seo-audit/sentencecounter.xyz</a>
           <a href="https://myopportunity.com/en/profile/ma-huahua/nw" target="_blank">https://myopportunity.com/en/profile/ma-huahua/nw</a>
+          <a href="https://www.lasso.net/go/link/aQEQaR" target="_blank">lasso</a>
+          <a href="https://portfolium.com/entry/sentence-counter" target="_blank">portfolium</a>
+          <a href="https://portfolium.com/entry/ship-name-generator-1" target="_blank">portfolium</a>
         </div>
         </div>
       </div>
